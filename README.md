@@ -25,7 +25,7 @@ This extension contributes the following settings:
 * `arduino.idePath`: Specify where the Arduino IDE is (Note: Absolute path only).
 * `arduino.libraryPath`: Specifies the serial port board are connected (Note: Absolute path only).
 * `arduino.fqbn`: Specifies the board type to use (fully qualified board name).
-* `arduino.serialPort`: Specifies the serial port borad are connected. (Windows: COMx, macOS: /dev/cu./dev/cu.usbmodemxxxx, Linux: /dev/ttyUSBxx)
+* `arduino.serialPort`: Specifies the serial port boards that are connected. (Windows: COMx, macOS: /dev/cu./dev/cu.usbmodemxxxx, Linux: /dev/ttyUSBxx)
 * `arduino.warnPercentage`: set to `blah` to do something
 * `arduino.compileOptions`: Additional options for compile the sketch
 * `arduino.uploader`: Custom uploader for extra board types
@@ -35,7 +35,7 @@ This extension contributes the following settings:
 * `arduino.baudrate`: Override RS-232 baud rate (Upload only)
 * `arduino.verbose`: Use verbose output when build and upload.
 
-Please note, every path here should be absolute path, relative path won't work.
+Please note, every path here should be absolute path. Relative paths won't work.
 
 ## Custom uploader support
 
